@@ -9,14 +9,14 @@ def is_enabled(value, default):
         return default
 
 # Mandatory variables for the bot to start
-API_ID = int(os.environ.get("API_ID", "13335517"))
-API_HASH = os.environ.get("API_HASH", "76b6a02d5f039628ac07e72108638c1a")
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "5515274385:AAGEp4AqZGJrSFpnKAszJoQRRaLD6ms2oxs")
+API_ID = int(os.environ.get("API_ID", "26164342"))
+API_HASH = os.environ.get("API_HASH", "1e6f9af98ffe06f3281a0b537ebf5c39")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "5947988639:AAFD7N0C8V8jMe6oh8iPSfl_3KP9BzdQR5s")
 DROPLINK_API = os.environ.get("DROPLINK_API")
-MDISK_API = os.environ.get("MDISK_API")
+MDISK_API = os.environ.get("QqTaWUfW4gRZiwHu4cdg")
 ADMINS = list(int(i.strip()) for i in os.environ.get("ADMINS").split(",")) if os.environ.get("ADMINS") else []
-DATABASE_NAME = os.environ.get("DATABASE_NAME", "MdiskConvertor")
-DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://Ravi:mdisk@cluster0.53vglyi.mongodb.net/?retryWrites=true&w=majority
+DATABASE_NAME = os.environ.get("DATABASE_NAME", "UrlShortner")
+DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://Raju143:Raju143@cluster0.rn7g4nh.mongodb.net/?retryWrites=true&w=majority"
 
 ")
 WEBSITE = os.environ.get('WEBSITE')
@@ -37,3 +37,4 @@ LINK_BYPASS = is_enabled((os.environ.get('LINK_BYPASS', "False")), False)
 HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
 HEROKU = True if HEROKU_API_KEY and HEROKU_APP_NAME else False
+mongodb+srv://Raju143:Raju143@cluster0.rn7g4nh.mongodb.net/?retryWrites=true&w=majority
