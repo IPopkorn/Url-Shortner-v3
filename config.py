@@ -15,8 +15,8 @@ BOT_TOKEN = os.environ.get("BOT_TOKEN", "5947988639:AAFD7N0C8V8jMe6oh8iPSfl_3KP9
 DROPLINK_API = os.environ.get("DROPLINK_API")
 MDISK_API = os.environ.get("QqTaWUfW4gRZiwHu4cdg")
 ADMINS = list(int(i.strip()) for i in os.environ.get("ADMINS").split(",")) if os.environ.get("ADMINS") else []
-DATABASE_NAME = os.environ.get("DATABASE_NAME", "UrlShortner")
-DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://Raju143:Raju143@cluster0.rn7g4nh.mongodb.net/?retryWrites=true&w=majority"
+DATABASE_NAME = os.environ.get("DATABASE_NAME", "UrlShortnerv3")
+DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://IPopkorn:IPopkorn@cluster0.g7y1ngf.mongodb.net/?retryWrites=true&w=majority"
 
 ")
 WEBSITE = os.environ.get('WEBSITE')
@@ -37,4 +37,4 @@ LINK_BYPASS = is_enabled((os.environ.get('LINK_BYPASS', "False")), False)
 HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
 HEROKU = True if HEROKU_API_KEY and HEROKU_APP_NAME else False
-mongodb+srv://Raju143:Raju143@cluster0.rn7g4nh.mongodb.net/?retryWrites=true&w=majority
+mongodb+srv://IPopkorn:IPopkorn@cluster0.g7y1ngf.mongodb.net/?retryWrites=true&w=majority
